@@ -1,0 +1,50 @@
+.background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+
+.header {
+    text-align: center;
+    display: flex;
+}
+
+.heading {
+    margin:20px auto;
+    color: #fff;
+}
+
+a.switch-btn {
+    text-decoration: none;
+    color: red;
+    margin-right: 10px;
+}
+
+.switch {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
